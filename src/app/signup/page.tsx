@@ -43,41 +43,7 @@ export default function signUpPage(){
     }
 
     return (
-    // <div >
-    //     <h1>{loading?"processing":"Sign UP"}</h1>
-    //     <br />
-    //     <label htmlFor="username">username:</label>
-    //     <input type="text"
-    //     id="username"
-    //     value={user.username}
-    //     onChange={(e)=>{setuser({...user,username:e.target.value})}}
-    //     placeholder="username"
-    //      />
-    //      <br />
-    //       <label htmlFor="email">Email:</label>
-    //     <input type="text"
-    //     id="email"
-    //     value={user.email}
-    //     onChange={(e)=>{setuser({...user,email:e.target.value})}}
-    //     placeholder="Email"
-    //      />
-    //      <br />
-    //        <label htmlFor="password">Password:</label>
-    //     <input type="text"
-    //     id="password"
-    //     value={user.password}
-    //     onChange={(e)=>{setuser({...user,password:e.target.value})}}
-    //     placeholder="Password"
-    //      />
-    //      <br />
-        
-    //     <button
-    //     onClick={ onsignUp}
-    //     >{
-    //         DisabledButton?"No SignUp":"Sign Up"}</button>
-    //         <br />
-    //         <Link href="/login">visit login page</Link>
-    //     </div>
+   
     <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
   <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-8">
     <h1 className="text-2xl font-bold text-center mb-6 text-gray-800">
@@ -136,6 +102,7 @@ export default function signUpPage(){
       >
         {DisabledButton ? "No SignUp" : "Sign Up"}
       </button>
+
 
       <p className="text-center text-sm mt-4 text-gray-600">
         Already have an account?{" "}
